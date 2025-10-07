@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  blog:
+    build: .
+    image: ghcr.io/justin-napolitano/jnapolitano-blog:latest
+    ports:
+      - "8082:80"
+    restart: unless-stopped

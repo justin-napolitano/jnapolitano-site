@@ -1,0 +1,26 @@
+# syntax=docker/dockerfile:1
+
+############################
+# Builder: generate static #
+############################
+FROM alpine:3.20 AS builder
+ARG ZOLA_VERSION=v0.19.2
+RUN apk add --no-cache curl tar
+WORKDIR /tmp
+# Grab a known-good musl build of Zola
+RUN curl -fsSLO https://github.com/getzola/zola/releases/download/${ZOLA_VERSION}/zola-${ZOLA_VERSION#v}-x86_64-unknown-linux-musl.tar.gz \
+ && tar -xzf zola-*-musl.tar.gz zola \
+ && install -m0755 zola /usr/local/bin/zola
+# Build the site
+WORKDIR /site
+COPY site/ /site/
+RUN zola build
+
+############################
+# Runtime: serve static    #
+############################
+FROM caddy:2-alpine
+COPY --from=builder /site/public /usr/share/caddy
+COPY Caddyfile /etc/caddy/Caddyfile
+HEALTHCHECK --interval=30s --timeout=3s --retries=3 \
+  CMD wget -qO- http://localhost/ >/dev/null || exit 1
