@@ -10,7 +10,7 @@ footer = false
 # If you don't want to display id/bio/avatar, simply comment out that line
 name = "Justin Napolitano"
 id = "jnapolitano"
-bio = "Jay BIrd baby"
+#bio = "Jay BIrd baby"
 #avatar = "img/avatar.webp"
 links = [
     { name = "GitHub", icon = "github", url = "https://github.com/justin-napolitano" },
@@ -23,5 +23,4 @@ recent_max = 15
 recent_more_text = "more»"
 date_format = "%b %-d, %Y"
 +++
-
-Hi, I'm Justin Napolitano. I'm just trying to live well. 
+ 
