@@ -1,3 +1,4 @@
+# .github/workflows/pages.yml
 name: Deploy Zola to GitHub Pages
 
 on:
@@ -27,8 +28,9 @@ jobs:
           | tar -xz -C /usr/local/bin zola
           zola --version
 
-      - name: Build site (project pages path)
-        run: zola build --root site --base-url "https://justin-napolitano.github.io/jnapolitano-site"
+      - name: Build site (project pages)
+        working-directory: site
+        run: zola build --base-url "https://justin-napolitano.github.io/jnapolitano-site"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
