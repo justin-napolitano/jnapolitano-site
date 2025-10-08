@@ -1,0 +1,40 @@
+# The URL the site will be built for
+base_url = "https://jnapolitano.com"
+title = "Justin Napolitano"
+author = "Justin Napolitano"
+description = "Blog + Journal"
+theme = "serene"
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+#template = 'home.html'
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+smart_punctuation = true
+external_links_target_blank = true
+
+[extra]
+ads_enabled = false
+
+# Show a few recent posts in home page
+recent = false
+recent_max = 15
+recent_more_text = "more »"
+date_format = "%b %-d, %Y"
+
+
+# If you don't want to display id/bio/avatar, simply comment out that line
+name = "Jhon Wick"
+id = "jhonwick"
+bio = "dog person, killer"
+avatar = "img/avatar.webp"
+links = [
+    { name = "GitHub", icon = "github", url = "https://github.com/<your-username>" },
+    { name = "Twitter", icon = "twitter", url = "https://twitter.com/<your-username>" },
+    { name = "Email", icon = "email", url = "mailto:<your-email-address>" },
+]

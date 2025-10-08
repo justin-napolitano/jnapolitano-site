@@ -10,6 +10,11 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certificates tar \
   && rm -rf /var/lib/apt/lists/*
 
+# allow base url override for dev vs prod
+# Let builds override base_url; otherwise use config.toml
+
+
+
 # Map Docker arch -> Zola triple (gnu, not musl)
 RUN case "$TARGETARCH" in \
       amd64)  PKG="zola-${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz" ;; \
@@ -22,7 +27,14 @@ RUN case "$TARGETARCH" in \
 
 WORKDIR /site
 COPY ./site/ /site/
-RUN zola build
+# Let builds override base_url; otherwise use config.toml
+ARG ZOLA_BASE_URL=""
+RUN if [ -n "$ZOLA_BASE_URL" ]; then \
+      zola build --base-url "$ZOLA_BASE_URL"; \
+    else \
+      zola build; \
+    fi
+#RUN zola build
 
 ############################
 # Runtime (static files)   #
@@ -32,3 +44,4 @@ COPY --from=builder /site/public /usr/share/caddy
 COPY Caddyfile /etc/caddy/Caddyfile
 HEALTHCHECK --interval=30s --timeout=3s --retries=3 \
   CMD wget -qO- http://localhost/ >/dev/null || exit 1
+

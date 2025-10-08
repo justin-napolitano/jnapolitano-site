@@ -1,0 +1,4 @@
+[submodule "site/themes/serene"]
+	path = site/themes/serene
+	url = https://github.com/isunjn/serene.git
+	branch = latest
