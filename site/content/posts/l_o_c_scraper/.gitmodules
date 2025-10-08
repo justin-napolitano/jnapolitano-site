@@ -1,0 +1,4 @@
+[submodule "src/gcputils"]
+	path = src/gcputils
+	url = https://github.com/justin-napolitano/gcputils.git
+	branch = pitt

@@ -1,0 +1,6 @@
+[submodule "gcputils"]
+	path = src/gcputils
+	url = https://github.com/justin-napolitano/gcputils.git
+[submodule "create_deploy_cloud_run_job"]
+	path = create_deploy_cloud_run_job
+	url = https://github.com/justin-napolitano/create_deploy_cloud_run_job.git
