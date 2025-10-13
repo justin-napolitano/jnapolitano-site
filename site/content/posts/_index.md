@@ -22,7 +22,7 @@ comment = false # enable comment
 copy = true # show copy button in code block
 
 outdate_alert = false
-outdate_alert_days = 12
+outdate_alert_days = 3000
 outdate_alert_text_before = "This article was last updated "
 outdate_alert_text_after = " days ago and may be out of date."
 +++
