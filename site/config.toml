@@ -1,6 +1,6 @@
 base_url = "https://justin-napolitano.github.io/jnapolitano-site"
-title = "Jay Bird Blog"
-description = "xxxx xxxx xxxx"
+title = "tulip"
+description = "hi"
 default_language = "en"
 theme = "serene"
 output_dir = "public"
@@ -38,7 +38,7 @@ sections = [
   { name = "posts", path = "/posts", is_external = false },
   { name = "cv", path = "/resume.pdf", is_external = false },
   #{ name = "cv_test", path = "/static/resume.pdf", is_external = false },
-  { name = "github", path = "https://github.com/justin-napolitano", is_external = true },
+  #{ name = "github", path = "https://github.com/justin-napolitano", is_external = true },
 ]
 blog_section_path = "/posts"
 
