@@ -25,6 +25,14 @@ jobs:
           fetch-depth: 0
           submodules: recursive   # <-- pulls your theme and any sub-submodules
 
+      - name: Verify submodules
+        run: |
+          git submodule sync --recursive
+          git submodule update --init --recursive
+          git submodule status --recursive
+          test -d site/content/posts/airplay-thinkpad || { echo "Missing post submodule"; exit 1; }
+          test -n "$(ls -A site/content/posts/airplay-thinkpad 2>/dev/null)" || { echo "Post submodule empty"; exit 1; }
+
       - name: Sanity check theme exists
         run: |
           test -d site/themes/serene || { echo "Theme missing at site/themes/serene"; exit 1; }
