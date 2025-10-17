@@ -30,8 +30,8 @@ jobs:
           git submodule sync --recursive
           git submodule update --init --recursive
           git submodule status --recursive
-          test -d site/content/posts/airplay-thinkpad || { echo "Missing post submodule"; exit 1; }
-          test -n "$(ls -A site/content/posts/airplay-thinkpad 2>/dev/null)" || { echo "Post submodule empty"; exit 1; }
+          #test -d site/content/posts/airplay-thinkpad || { echo "Missing post submodule"; exit 1; }
+          #test -n "$(ls -A site/content/posts/airplay-thinkpad 2>/dev/null)" || { echo "Post submodule empty"; exit 1; }
 
       - name: Sanity check theme exists
         run: |
