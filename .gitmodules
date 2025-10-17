@@ -2,3 +2,7 @@
 	path = site/themes/serene
 	url = https://github.com/isunjn/serene.git
 	branch = latest
+[submodule "site/content/posts/airplay-thinkpad"]
+	path = site/content/posts/airplay-thinkpad
+	url = https://github.com/justin-napolitano/shairport-sync-blog-post.git
+	branch = main
