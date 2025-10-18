@@ -6,3 +6,6 @@
 	path = site/content/posts/airplay-thinkpad
 	url = https://github.com/justin-napolitano/shairport-sync-blog-post.git
 	branch = main
+[submodule "site/content/posts/librespot"]
+	path = site/content/posts/librespot
+	url = https://github.com/justin-napolitano/librespot.git
