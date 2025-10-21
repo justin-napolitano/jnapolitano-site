@@ -6,3 +6,7 @@
 	path = site/content/posts/airplay-thinkpad
 	url = https://github.com/justin-napolitano/shairport-sync-blog-post.git
 	branch = main
+[submodule "site/content/posts/silence_receiver"]
+	path = site/content/posts/silence_receiver
+	url = https://github.com/justin-napolitano/silence_receiver.git
+	branch = main
