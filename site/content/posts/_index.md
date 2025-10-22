@@ -15,7 +15,7 @@ subtitle = ""
 
 date_format = "%b %-d, %Y"
 
-categorized = true # posts can be categorized
+categorized = false # posts can be categorized
 back_to_top = true # show back-to-top button
 toc = true # show table-of-contents
 comment = false # enable comment
