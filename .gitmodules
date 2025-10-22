@@ -13,3 +13,7 @@
 [submodule "site/content/posts/librespot"]
 	path = site/content/posts/librespot
 	url = https://github.com/justin-napolitano/librespot.git
+[submodule "site/content/posts/signal-gateway"]
+	path = site/content/posts/signal-gateway
+	url = https://github.com/justin-napolitano/signal_service.git
+	branch = site-index
