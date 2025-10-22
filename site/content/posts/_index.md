@@ -1,6 +1,6 @@
 +++
-title = "My Blog"
-description = "My blog site."
+title = "writings"
+description = "shtuff."
 sort_by = "date"
 template = "blog.html"
 page_template = "post.html"
@@ -15,7 +15,7 @@ subtitle = ""
 
 date_format = "%b %-d, %Y"
 
-categorized = false # posts can be categorized
+categorized = truee # posts can be categorized
 back_to_top = true # show back-to-top button
 toc = true # show table-of-contents
 comment = false # enable comment
