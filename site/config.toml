@@ -40,8 +40,7 @@ sections = [
   #{ name = "cv_test", path = "/static/resume.pdf", is_external = false },
   #{ name = "github", path = "https://github.com/justin-napolitano", is_external = true },
 ]
-blog_section_path = "/posts"
-
+blog_section_path = "/jnapolitano-site/posts/"
 back_link_text = "Back" # Text of the back button
 force_theme = false # false | "light" | "dark"
 
