@@ -17,3 +17,6 @@
 	path = site/content/posts/signal-gateway
 	url = https://github.com/justin-napolitano/signal_service.git
 	branch = site-index
+[submodule "site/content/posts/you-post"]
+	path = site/content/posts/you-post
+	url = https://github.com/justin-napolitano/you-post.git
