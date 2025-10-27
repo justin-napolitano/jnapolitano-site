@@ -20,3 +20,7 @@
 [submodule "site/content/posts/you-post"]
 	path = site/content/posts/you-post
 	url = https://github.com/justin-napolitano/you-post.git
+[submodule "site/content/posts/weather-service"]
+	path = site/content/posts/weather-service
+	url = https://github.com/justin-napolitano/weather-servb
+	branch = blog-post
