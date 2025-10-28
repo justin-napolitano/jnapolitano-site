@@ -24,3 +24,6 @@
 	path = site/content/posts/weather-service
 	url = https://github.com/justin-napolitano/weather-servb
 	branch = blog-post
+[submodule "site/content/posts/signal-weather-stack-tool"]
+	path = site/content/posts/signal-weather-stack-tool
+	url = https://github.com/justin-napolitano/signal-weather-stack-tool
