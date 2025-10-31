@@ -27,3 +27,7 @@
 [submodule "site/content/posts/signal-weather-stack-tool"]
 	path = site/content/posts/signal-weather-stack-tool
 	url = https://github.com/justin-napolitano/signal-weather-stack-tool
+[submodule "site/content/posts/mac-dev"]
+	path = site/content/posts/mac-dev
+	url = https://github.com/justin-napolitano/mac-dev.git
+	branch = pst
