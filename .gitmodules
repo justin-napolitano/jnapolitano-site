@@ -31,3 +31,7 @@
 	path = site/content/posts/mac-dev
 	url = https://github.com/justin-napolitano/mac-dev.git
 	branch = pst
+[submodule "site/content/posts/linux-dev-setup"]
+	path = site/content/posts/linux-dev-setup
+	url = ssh://github.com/justin-napolitano/linux-dev-setup.git
+	branch = post
