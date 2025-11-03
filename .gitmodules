@@ -33,5 +33,5 @@
 	branch = pst
 [submodule "site/content/posts/linux-dev-setup"]
 	path = site/content/posts/linux-dev-setup
-	url = ssh://github.com/justin-napolitano/linux-dev-setup.git
+	url = https://github.com/justin-napolitano/linux-dev-setup.git
 	branch = post
