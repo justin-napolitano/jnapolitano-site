@@ -35,3 +35,7 @@
 	path = site/content/posts/linux-dev-setup
 	url = https://github.com/justin-napolitano/linux-dev-setup.git
 	branch = post
+[submodule "site/content/posts/nix-tools"]
+	path = site/content/posts/nix-tools
+	url = https://github.com/justin-napolitano/nix-tools.git
+	branch = post
