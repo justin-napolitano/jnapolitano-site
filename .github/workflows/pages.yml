@@ -47,7 +47,7 @@ jobs:
 
       - name: Build site (project pages)
         working-directory: site
-        run: zola build --base-url "https://justin-napolitano.github.io/jnapolitano-site"
+        run: zola build --base-url "https://justin-napolitano.com"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
