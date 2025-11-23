@@ -1,6 +1,0 @@
-[submodule "mysql-config"]
-	path = mysql-config
-	url = https://github.com/justin-napolitano/mysql-config.git
-[submodule "MySQLConnector"]
-	path = MySQLConnector
-	url = https://github.com/justin-napolitano/mysql-utility-class.git
