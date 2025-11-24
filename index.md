@@ -1,12 +1,28 @@
 ---
-slug: "github-jnapolitano-site"
-title: "jnapolitano-site"
-repo: "justin-napolitano/jnapolitano-site"
-githubUrl: "https://github.com/justin-napolitano/jnapolitano-site"
-generatedAt: "2025-11-23T09:10:15.993354Z"
-source: "github-auto"
+slug: github-jnapolitano-site
+title: Containerized Static Site and Build Workflow for jnapolitano-site
+repo: justin-napolitano/jnapolitano-site
+githubUrl: https://github.com/justin-napolitano/jnapolitano-site
+generatedAt: '2025-11-23T09:10:15.993354Z'
+source: github-auto
+summary: >-
+  Technical overview of a personal static site using Docker, Makefile automation, multi-architecture
+  builds, and metadata-driven content management.
+tags:
+  - docker
+  - static-site
+  - makefile
+  - multi-architecture
+  - zola
+  - bash-scripting
+seoPrimaryKeyword: containerized static site
+seoSecondaryKeywords:
+  - docker compose
+  - multi-arch docker
+  - static site generator
+  - makefile automation
+seoOptimized: true
 ---
-
 
 # jnapolitano-site: Technical Overview and Implementation Details
 
