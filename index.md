@@ -22,6 +22,13 @@ seoSecondaryKeywords:
   - static site generator
   - makefile automation
 seoOptimized: true
+topicFamily: automation
+topicFamilyConfidence: 0.9
+topicFamilyNotes: >-
+  The post focuses heavily on containerized build and deployment workflows, Makefile automation,
+  scripts for content management, and multi-architecture Docker builds which are best captured under
+  'automation'. While the site is a static blog, the workflow and automation aspects dominate the
+  technical content.
 ---
 
 # jnapolitano-site: Technical Overview and Implementation Details
@@ -72,3 +79,4 @@ This repository encapsulates a containerized static site with automated build an
 ---
 
 *This document is intended as a technical reference for developers and engineers revisiting the project.*
+
