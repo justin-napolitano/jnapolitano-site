@@ -1,13 +1,13 @@
 ---
 slug: github-jnapolitano-site
-title: Containerized Static Site and Build Workflow for jnapolitano-site
+title: Technical Overview of jnapolitano-site Implementation
 repo: justin-napolitano/jnapolitano-site
 githubUrl: https://github.com/justin-napolitano/jnapolitano-site
 generatedAt: '2025-11-23T09:10:15.993354Z'
 source: github-auto
 summary: >-
-  Technical overview of a personal static site using Docker, Makefile automation, multi-architecture
-  builds, and metadata-driven content management.
+  Explore the architecture, build system, and deployment details of the
+  jnapolitano-site, a performant static site using Docker and Markdown.
 tags:
   - docker
   - static-site
@@ -15,20 +15,29 @@ tags:
   - multi-architecture
   - zola
   - bash-scripting
-seoPrimaryKeyword: containerized static site
-seoSecondaryKeywords:
-  - docker compose
-  - multi-arch docker
   - static site generator
-  - makefile automation
+  - markdown
+  - docker-compose
+  - devops
+  - site configuration
+seoPrimaryKeyword: jnapolitano-site implementation
+seoSecondaryKeywords:
+  - static site architecture
+  - docker build automation
+  - content management workflows
+  - multi-architecture Docker
+  - site deployment strategies
 seoOptimized: true
 topicFamily: automation
 topicFamilyConfidence: 0.9
 topicFamilyNotes: >-
-  The post focuses heavily on containerized build and deployment workflows, Makefile automation,
-  scripts for content management, and multi-architecture Docker builds which are best captured under
-  'automation'. While the site is a static blog, the workflow and automation aspects dominate the
-  technical content.
+  The post focuses heavily on containerized build and deployment workflows,
+  Makefile automation, scripts for content management, and multi-architecture
+  Docker builds which are best captured under 'automation'. While the site is a
+  static blog, the workflow and automation aspects dominate the technical
+  content.
+kind: project
+id: github-jnapolitano-site
 ---
 
 # jnapolitano-site: Technical Overview and Implementation Details
