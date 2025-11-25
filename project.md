@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/jnapolitano-site
 generatedAt: '2025-11-24T21:35:18.265Z'
 source: github-auto
 summary: >-
-  Explore the setup and deployment of a personal site using Docker, Zola, and
-  Bash scripts for automation.
+  Explore the setup and deployment of a personal site using Docker, Zola, and Bash scripts for
+  automation.
 tags:
   - docker
   - docker-compose
@@ -29,8 +29,8 @@ seoSecondaryKeywords:
   - site management scripts
   - multi-architecture support
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: static
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -140,3 +140,4 @@ make logs
 ---
 
 *Note: This README assumes the use of Zola as the static site generator based on build arguments in the Makefile. Adjust accordingly if another generator is used.*
+
