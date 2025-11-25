@@ -1,14 +1,14 @@
 ---
 slug: github-jnapolitano-site
 id: github-jnapolitano-site
-title: Setup and Deploy Your Personal Site with Docker and Zola
+title: Building a Personal Site with Docker and Zola
 repo: justin-napolitano/jnapolitano-site
 githubUrl: https://github.com/justin-napolitano/jnapolitano-site
 generatedAt: '2025-11-24T21:35:18.265Z'
 source: github-auto
 summary: >-
-  Learn how to build and deploy a personal site using Docker, Zola, and Bash
-  scripts for automation.
+  Explore the setup and deployment of a personal site using Docker, Zola, and
+  Bash scripts for automation.
 tags:
   - docker
   - docker-compose
@@ -17,14 +17,17 @@ tags:
   - bash
   - ci/cd
   - mysql
-seoPrimaryKeyword: dockerized personal site deployment
+  - bash scripting
+  - static site generator
+  - CI/CD
+  - MySQL
+seoPrimaryKeyword: docker zola personal site
 seoSecondaryKeywords:
-  - static site setup
-  - zola static site generator
-  - docker development workflow
+  - static site deployment
   - bash automation scripts
-  - mysql integration
-  - ci cd for static sites
+  - dockerized development
+  - site management scripts
+  - multi-architecture support
 seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
