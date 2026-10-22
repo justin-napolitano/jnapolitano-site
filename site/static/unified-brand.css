@@ -1,0 +1,21 @@
+@font-face { font-family:Inter; src:url('fonts/Inter-Variable.ttf') format('truetype'); font-weight:100 900; font-display:swap; }
+@font-face { font-family:'Source Serif 4'; src:url('fonts/SourceSerif4-Variable.ttf') format('truetype'); font-weight:200 900; font-display:swap; }
+body { --primary-color:#4f6073; --primary-pale-color:#e5e2db; --primary-decoration-color:#e5e2db; --bg-color:#f4f0e8; --text-color:#25251f; --text-pale-color:#60615c; --text-decoration-color:#cbc8bf; --highlight-mark-color:#e5e2db; --main-font:Inter,system-ui,sans-serif; --font-size:16px; --line-height:1.75; --main-max-width:800px; --homepage-max-width:800px; --block-code-border-color:#cbc8bf; --detail-border-color:#cbc8bf; }
+body.dark { --primary-color:#b1c1d3; --primary-pale-color:#34342e; --primary-decoration-color:#34342e; --bg-color:#25251f; --text-color:#f4f0e8; --text-pale-color:#cbc8bf; --text-decoration-color:#60615c; --highlight-mark-color:#34342e; --block-code-border-color:#60615c; --detail-border-color:#60615c; }
+.homepage #wrapper { min-height:0; justify-content:flex-start; }
+.homepage main { min-height:0; padding:32px 0; }
+.homepage #info { align-items:flex-start; }
+.homepage #name { font-size:24px; font-weight:500; line-height:1.3; }
+.homepage #links { margin:24px 15px; padding:16px 0; border-top:1px solid var(--text-decoration-color); border-bottom:1px solid var(--text-decoration-color); }
+h1,.prose h1,.title { font-family:'Source Serif 4',Georgia,serif; font-size:28px; line-height:1.3; font-weight:400; }
+h2,.prose h2 { font-size:24px; font-weight:500; }
+h3,.prose h3 { font-size:20px; font-weight:500; }
+header .section-title { font:500 22px/1.3 Inter,system-ui,sans-serif; }
+a { overflow-wrap:anywhere; text-underline-offset:4px; }
+#links a,#links button,header a,header button { min-height:44px; display:inline-flex; align-items:center; }
+img,video { max-width:100%; }
+pre { max-width:100%; overflow:auto; }
+:focus-visible { outline:2px solid var(--primary-color); outline-offset:4px; }
+@media(max-width:600px) { h1,.title { font-size:26px; } .homepage #name { font-size:22px; } }
+@media(prefers-reduced-motion:reduce) { *,*::before,*::after { animation:none!important; transition:none!important; scroll-behavior:auto!important; } }
+@media print { body,body.dark { --bg-color:white; --text-color:#25251f; --text-pale-color:#45453f; --primary-color:#25251f; } }
